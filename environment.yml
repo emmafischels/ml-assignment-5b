@@ -1,0 +1,24 @@
+name: ml-assignment-5b
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - r-base
+  - r-irkernel
+  # Machine learning packages
+
+  - r-caret
+  - r-e1071
+  - r-randomforest
+  - r-kernlab
+  - r-rpart
+  - r-mass
