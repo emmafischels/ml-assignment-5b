@@ -1,0 +1,31 @@
+name: ml-assignment-5b-ai
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python stack for JupyterLab
+  - python>=3.11
+  - jupyterlab>=4.0
+  - ipykernel
+
+  # R core and Jupyter integration
+  - r-base>=4.3
+  - r-irkernel
+
+  # Modeling and evaluation (caret ecosystem)
+  - r-caret
+  - r-mass          # Linear Discriminant Analysis
+  - r-class         # k-Nearest Neighbors
+  - r-rpart         # Decision trees
+  - r-klaR          # Naive Bayes
+  - r-e1071         # Support Vector Machines
+  - r-kernlab       # Radial-basis SVM kernel
+  - r-randomforest  # Random Forest
+
+  # Exploration and visualization
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-corrplot

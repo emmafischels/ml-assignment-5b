@@ -1,0 +1,50 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Conda
+.conda/
+conda-meta/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.cursor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# Generated analysis outputs (optional artifacts)
+figures/
+results/
+output/
+
+# Large archives
+*.zip
+*.tar.gz
+*.gz
+*.bz2
+*.7z
